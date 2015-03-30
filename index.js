@@ -1,0 +1,1 @@
+console.log("scipm.vardump is not a classic nodejs/iojs module")

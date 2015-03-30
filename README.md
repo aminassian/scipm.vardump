@@ -1,0 +1,1 @@
+# scipm.vardumpscipm.vardump is a [scipm](https://github.com/aminassian/scipm) package## install```cd myScipmProjectnpm install scipm.vardump --savescipm build[restart SciTE]```## usage```scipm.vardump({["why"] = 42, ["hello"] = "world"})```

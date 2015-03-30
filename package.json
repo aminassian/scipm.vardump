@@ -1,0 +1,45 @@
+{
+    "main": "index.js",
+    "name": "scipm.vardump",
+    "version": "0.1.0",
+    "description": "lua vardump for scipm",
+    "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ACCOUNT/scipm.vardump.git"
+    },
+    "bugs": {
+        "type": "git",
+        "url": "git://github.com/ACCOUNT/scipm.vardump/issues"
+    },
+    "keywords": [
+        "scipm",
+        "lua",
+        "vardump"
+    ],
+    "dependencies": {
+    },
+    "scipmchild": {
+        "version": "1",
+        "scipmDependencies": {},
+        "luaRequire": [],
+        "SciTEStartup": {
+            "_use": "dofile",
+            "raw": null,
+            "filePath": null,
+            "dofile": ["scite", "main.lua"],
+            "luaReportExtend": "scipm.core.printInfoPackage('scipm.vardump')",
+            "infoLuaFunctions": [
+                {"name": "scipm.vardump(value, depth, key)"}
+            ],
+            "infoFiles" : [
+                {"path": ["README.md" ]},
+                {"path": ["package.json" ]},
+                {"path": ["scite", "main.lua" ]}
+            ],
+            "infoProps": [
+            ]
+        },
+        "actions": {}
+    }
+}
