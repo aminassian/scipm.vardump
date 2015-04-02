@@ -1,7 +1,7 @@
 {
     "main": "index.js",
     "name": "scipm.vardump",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "lua vardump for scipm",
     "license": "GPL-3.0",
     "repository": {
@@ -13,6 +13,7 @@
         "url": "git://github.com/ACCOUNT/scipm.vardump/issues"
     },
     "keywords": [
+        "scipm-package",
         "scipm",
         "lua",
         "vardump"
