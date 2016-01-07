@@ -6,11 +6,11 @@
     "license": "GPL-3.0",
     "repository": {
         "type": "git",
-        "url": "git://github.com/ACCOUNT/scipm.vardump.git"
+        "url": "git://github.com/aminassian/scipm.vardump.git"
     },
     "bugs": {
         "type": "git",
-        "url": "git://github.com/ACCOUNT/scipm.vardump/issues"
+        "url": "git://github.com/aminassian/scipm.vardump/issues"
     },
     "keywords": [
         "scipm-package",
